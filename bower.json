@@ -8,7 +8,7 @@
   "description": "Create  beautiful fullscreen scrolling websites",
   "main": [
     "jquery.fullPage.js",
-    "jquery.fullPage.css"
+    "jquery.fullPage.scss"
   ],
   "keywords": [
     "jquery",

@@ -1563,7 +1563,7 @@
 			text = text.replace('/', '-').replace('#','');
 
 			//removing previous anchor classes
-			$("body")[0].className = $("body")[0].className.replace(/\b\s?fp-viewing-.*\b/g, '');
+			$("body")[0].className = $("body")[0].className.replace(/\b\s?fp-viewing-\d+\b/g, '');
 
 			//adding the current anchor
 			$("body").addClass("fp-viewing-" + text);
